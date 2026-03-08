@@ -17,7 +17,7 @@ body {
 .cards-container {
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 8px;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
@@ -26,16 +26,17 @@ body {
 .card {
     background-color: #e5e3dd;
     border-radius: 12px;
-    padding: 24px;
+    padding: 16px;
     width: 320px;
+    min-height: 360px;
     flex-shrink: 0;
 }
 
 .card-title {
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 400;
     color: #333;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
 }
 
 .card-price {
@@ -50,7 +51,7 @@ body {
 
 .includes-text {
     font-size: 16px;
-    color: #333;
+    color: #666;
     margin-bottom: 16px;
 }
 
